@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+}
+.principal{
+    
+    background-image: url(/src/img/DEST_BELGIUM_BRUGGE-CANAL_shutterstock-portfolio_1421308190-1.jpg);
+}
+.secundario{
+    background-image: linear-gradient(to top,black,red);
+}
+.tercero{
+    background-image: linear-gradient(to top,black,red);
+}
+.cuarto{
+    background-image: url(/src/img/hotelinsano.jpg);
+}
+.quinto{
+    background-image: url(/src/img/Excursion.jpg);
+}
+.contenido{
+    color: rgb(255, 255, 255);
+}
+.hotelink:hover{
+    color: burlywood;
+}
+.hotelink{
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.conhoteles{
+    padding:100px;
+    color: rgb(255, 255, 255);
+    font-size:25px ;
+}
+header{
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px;
+    border-radius: 60px;
+    padding: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    margin-right: px;
+}
+.menu__opciones:hover{
+    color: burlywood;
+}
+.menu__opciones{
+    border: 1px solid white;
+    color: black;
+    margin-right:50px ;
+    list-style: none;
+    text-decoration: none;
+      
+}
+.paginas{
+    display: flex;
+}
+.bodyinform{
+    background-image:radial-gradient(to left,red,black) ;
+}
+.fotosinfor{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.fotoinfo{
+    border-radius:40px ;
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+}
+.belgica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.titulo{
+    font-family: geneva;
+    color: white;
+    font-size: 100px;
+}
+p ,h2{
+    color: white;
+}
+.contenido{
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fotosciudades{
+    justify-content: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+}
